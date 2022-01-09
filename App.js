@@ -30,6 +30,12 @@ document.getElementById('Keypad').addEventListener('click',function(event){
     else if(key == "C"){
         document.getElementById('diplayPinField').value = '';
     }
+    else if(key == "<"){
+        const string = document.getElementById('diplayPinField').value;
+        const newString =  string.slice(0, string.length - 1);
+        document.getElementById('diplayPinField').value = newString;
+    
+    }
 
    
 
