@@ -43,6 +43,7 @@ document.getElementById('SubmitButton').addEventListener('click',function(){
     if(genPin == typPin){
        document.getElementById('success').style.display = 'block';
         document.getElementById('error').style.display = 'none';
+        document.getElementById('diplayPinField').value = '';
         
     }
     else{
